@@ -41,11 +41,11 @@ Robust accuracy is evaluated under first-order adversarial attacks constrained b
 Adversarial accuracy as a function of ε for models trained with different regularization strengths λ.
 
 **Observations:**
-- Unregularized models fail rapidly as ε increases despite perfect training accuracy.
-- Increasing λ significantly slows the degradation of adversarial accuracy.
+- Unregularized MLP models fail rapidly as ε increases despite perfect training accuracy.
+- Increasing λ slows the degradation of adversarial accuracy.
 - Excessive regularization eventually harms both clean and adversarial performance.
 
-The synthetic setting isolates the **fundamental trade-off** between interpolation, robustness, and regularization strength.
+The synthetic setting isolates the fundamental trade-off between interpolation, robustness, and regularization strength.
 
 ---
 
